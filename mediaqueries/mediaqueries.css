@@ -3,6 +3,11 @@
     .nosotros-container h2,
     .servicios-index h2 {
         font-size: 24px;
+    } 
+
+    .nosotros-card img{
+        width: 250px;
+        height: 300px; 
     }
 
     .gallery {
@@ -17,16 +22,6 @@
         width: 60%;
     }
 
-    .contact-section h2 {
-        margin-bottom: 10px;
-    }
-
-    .contenido-contacto-orden-index1,
-    .contenido-contacto-orden-index2,
-    .contenido-contacto-orden-index3 {
-        margin: 20px;
-        padding: 20px; 
-    } 
 }
 
 @media(max-width:767px) {
@@ -122,6 +117,15 @@
     .icons-index-contenedor {
         width: 60%;
     } */ 
+
+    .nosotros-card {
+        display: none;
+    } 
+
+    
+    .nosotros-container {
+        width: 80%;
+    }
 
     .contenedor1 img,  
     .contenedor2 img, 

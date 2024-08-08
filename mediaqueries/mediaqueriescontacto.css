@@ -6,6 +6,7 @@
     .contact-section {
         display: flex;
         flex-direction: column-reverse;
+        margin-left: 0px; 
     }
     .contact-form {
         width: 60%;
@@ -21,6 +22,18 @@
     .contact-form {
         margin-bottom: 20px;
     }
+
+    
+    .contact-section h2 {
+        margin-bottom: 10px;
+    }
+
+    .contenido-contacto-orden-index1,
+    .contenido-contacto-orden-index2,
+    .contenido-contacto-orden-index3 {
+        margin: 0px;
+        padding: 20px; 
+    } 
 } 
 
 @media(max-width:767px) {
@@ -44,7 +57,7 @@
     .contenido-contacto-orden-index1,
     .contenido-contacto-orden-index2,
     .contenido-contacto-orden-index3 {
-        padding: 0px;
+        padding: 20px;
     }
     .contact-form legend {
         font-size: 20px; 
