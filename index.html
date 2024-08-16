@@ -337,7 +337,7 @@
       var splide = new Splide( '.splide', {
         type   : 'loop',
         perMove: 1,
-perPage: 5,
+perPage: 4,
 gap    : '.2rem',
 breakpoints: {
 
@@ -354,14 +354,16 @@ breakpoints: {
   580: {
     perPage: 2,
     gap    : '.2rem',
-    perMove: 2,
+    perMove: 1,
   }, 
 
-  350: {
-    perPage: 2,
+  400: {
+    perPage: 1, 
+    perMove: 1,
+  }, 
   }, 
 },
-} );
+ );
 
 splide.mount();
   </script>

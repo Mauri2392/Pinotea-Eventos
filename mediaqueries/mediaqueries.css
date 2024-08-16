@@ -205,7 +205,7 @@
 
     .slide-index {
         /* background-color: black; */
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     } 
 
@@ -247,5 +247,13 @@
      
 .contenido-servicios-orden-index p {
     font-size: 14px;
+} 
+
+
+.splide__slide img {
+    width: 60%;
+    height: 280px;
+    border-radius: 10px;
+    margin: 0 auto;
 } 
 }
